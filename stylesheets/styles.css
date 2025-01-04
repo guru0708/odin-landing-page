@@ -1,1 +1,166 @@
 /* Style for the layout to be added here */
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header,
+.hero-text-image {
+    background-color: #1F2937;
+}
+
+.header {
+    height: 10vh;
+    flex: 0;
+    display: flex;
+    padding: 2px 15vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.sign-up,
+.website-description,
+.right-links a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-text-image {
+    display: flex;
+    padding: 75px 15vw;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.quotes-section {
+    background-color: #1F2937;
+}
+
+.hero-text-image,
+.info-section,
+.quotes-section,
+.call-section {
+    height: 425px;
+    flex: 1 0 auto;
+}
+
+.footer {
+    height: 10vh;
+    flex: 0;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    color: #F9FAF8;
+}
+
+.hero-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+    gap: 10px;
+}
+
+.hero-placeholder {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.website-heading {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.hero-placeholder {
+    background-color: rgb(135, 135, 137);
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.placeholder-container {
+    display: flex;
+    gap: 80px;
+}
+
+.info-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    gap: 8px;
+}
+
+.image-placeholder {
+    border: 2px solid #3882F6;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.info-heading {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quotes-section {
+    background-color: #E5E7EB;
+    box-sizing: border-box;
+    padding: 0 23vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote-author {
+    align-self: flex-end;
+}
